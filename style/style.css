@@ -132,3 +132,33 @@ header {
     color: white;
     font-size: 2em;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: -350px;
+}
+
+.grid-container > div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.grid-container h2 {
+    color: white;
+}
+
+.grid-container p {
+    color: grey;
+}
+
+.grid-container i {
+    display: inline-block;
+    color: coral;
+    font-size: 3em;
+}
+
