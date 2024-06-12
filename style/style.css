@@ -500,5 +500,16 @@ header {
     transform: scale(1.1);
 }
 
+.contact-header {
+    padding: 300px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.contact-header {
+    padding-bottom: 50px ;
+}
+
 
 
