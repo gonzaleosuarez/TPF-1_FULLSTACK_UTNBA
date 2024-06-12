@@ -347,5 +347,67 @@ header {
     font-size: 2em;
 }
 
+.flex-container-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 20px 10px 0;
+}
+
+.flex-container-skills > div {
+    margin: 10px;
+    padding: 0;
+    font-size: 1.5em;
+    width: calc(50% - 20px);
+    height: calc(100% - 20px);
+    position: relative;
+    z-index: 1;
+}
+
+.flex-container-skills h2 {
+    font-size: 0.7em;
+    text-align: left;
+    color: white;
+}
+
+.flex-container-skills p {
+    color: grey;
+    font-size: 0.7em;
+}
+
+.skills-bar h2 {
+    margin-top: 50px;
+}
+
+.flex-container-skills button {
+    padding: 10px 20px; 
+    font-size: 1em;
+    border: 2px solid #020414;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 53px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.flex-container-skills button a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.flex-container-skills button:hover {
+    background-color: #45a049;
+    color: white;
+    border-radius: 5px;
+    
+}
+
 
 
