@@ -409,5 +409,96 @@ header {
     
 }
 
+.header-portfolio {
+    padding: 300px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.item {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+  
+.item1 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+  
+.item2 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+  
+.item3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+  
+.item4 {
+    grid-column: span 2;
+    grid-row: span 4;
+}
+  
+.item5 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+  
+.item6 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+  
+.item7 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.item8 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.item9 {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.item10 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item11 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+  
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
 
 
