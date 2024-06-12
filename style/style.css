@@ -6,3 +6,42 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    text-align: center; 
+}
+
+.navbar {
+    width: 100%;
+    background-color: white; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navbar a {
+    padding: 15px 20px;
+    color: black; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    position: relative; 
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover::before {
+    background-color: orangered;
+}
+
+.navbar a.active {
+    background-color: transparent;
+}
