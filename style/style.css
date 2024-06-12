@@ -45,3 +45,48 @@ header {
 .navbar a.active {
     background-color: transparent;
 }
+
+.hero {
+    position: relative; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.hero img {
+    position: absolute;
+    opacity: 0.5;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: auto; 
+    z-index: -1;
+}
+
+.hero-content a {
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+.hero-content i {
+    color: grey;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: white;
+    margin-top: 20px; 
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: white;
+}
