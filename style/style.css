@@ -678,5 +678,16 @@ header {
     opacity: 0.5;
 }
 
+.footer {
+    background-color: white;
+    padding: 10px;
+}
+
+.footer p {
+    margin-left: 70px;
+}
+
+
+
 
 
