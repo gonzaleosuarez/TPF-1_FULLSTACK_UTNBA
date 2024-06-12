@@ -90,3 +90,19 @@ header {
     font-size: 1.2em;
     color: white;
 }
+
+.logo-box {
+    background-color: coral;
+    width: 70px;
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+    margin-left: 130px;
+}
+
+.logo-box h1 {
+    color: white;
+    font-size: 2em; 
+}
