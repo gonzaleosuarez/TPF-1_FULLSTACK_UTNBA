@@ -5,7 +5,6 @@ Este es mi portfolio personal, creado como parte del primer proyecto final para 
 Características
 Navegación intuitiva con menú de navegación.
 Sección de proyectos para mostrar mis trabajos destacados.
-Diseño limpio y moderno con una paleta de colores atractiva.
 
 Tecnologías Utilizadas
 HTML5
